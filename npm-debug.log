@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'mocha' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/rwick/projects/nodewars/package.json
+5 verbose readDependencies loading dependencies from /Users/rwick/projects/nodewars/package.json
+6 silly cache add args [ 'mocha', null ]
+7 verbose cache add spec mocha
+8 silly cache add parsed spec { raw: 'mocha',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'mocha',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed mocha@*
+10 verbose addNamed "*" is a valid semver range for mocha
+11 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+12 silly mapToRegistry name mocha
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://xandocs:4873/
+15 silly mapToRegistry uri http://xandocs:4873/mocha
+16 verbose addNameRange registry:http://xandocs:4873/mocha not in flight; fetching
+17 verbose request uri http://xandocs:4873/mocha
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 6:07:05 AM
+20 verbose request using bearer token for auth
+21 verbose request id a8092faabd14a904
+22 http request GET http://xandocs:4873/mocha
+23 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+24 info attempt registry request try #2 at 6:07:15 AM
+25 verbose request using bearer token for auth
+26 http request GET http://xandocs:4873/mocha
+27 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+28 info attempt registry request try #3 at 6:08:15 AM
+29 verbose request using bearer token for auth
+30 http request GET http://xandocs:4873/mocha
+31 verbose stack Error: connect ECONNREFUSED
+31 verbose stack     at exports._errnoException (util.js:746:11)
+31 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+32 verbose cwd /Users/rwick/projects/nodewars
+33 error Darwin 14.4.0
+34 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "mocha"
+35 error node v0.12.7
+36 error npm  v2.11.3
+37 error code ECONNREFUSED
+38 error errno ECONNREFUSED
+39 error syscall connect
+40 error Error: connect ECONNREFUSED
+40 error     at exports._errnoException (util.js:746:11)
+40 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+40 error  { [Error: connect ECONNREFUSED]
+40 error   code: 'ECONNREFUSED',
+40 error   errno: 'ECONNREFUSED',
+40 error   syscall: 'connect',
+40 error   parent: 'nodewars' }
+41 error If you are behind a proxy, please make sure that the
+41 error 'proxy' config is set properly.  See: 'npm help config'
+42 verbose exit [ 1, true ]
