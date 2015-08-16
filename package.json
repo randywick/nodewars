@@ -2,7 +2,7 @@
   "name": "nodewars",
   "version": "0.0.1",
   "description": "A Node.js module to simplify Codewars participation from the comfort of your development environment",
-  "main": "index.js",
+  "main": "nodewars",
   "scripts": {
     "test": "mocha"
   },
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/randywick/nodewars/issues"
   },
-  "homepage": "https://github.com/randywick/nodewars#readme"
+  "homepage": "https://github.com/randywick/nodewars#readme",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "chalk": "^1.1.0",
+    "commander": "^2.8.1",
+    "fs-extra": "^0.23.1",
+    "prompt": "^0.2.14"
+  }
 }
