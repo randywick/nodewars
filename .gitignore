@@ -2,6 +2,7 @@ node_modules
 .DS_Store
 .idea
 nwconfig.json
-.nwdata*
+.nwdata
+.nwdata.b
 **/session.json
 katas/**/*
