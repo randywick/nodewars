@@ -5,7 +5,7 @@ NODEWARS is a [Codewars](https://www.codewars.com) API client written in JavaScr
 1. Clone this project into the location of your choice
 2. ```chmod +x <project_dir>/nodewars```
 3. ```npm install``` (no packaged node_modules here!)
-4. Add the project root to your PATH environment variable if you want to be able to invoke it from anywhere.  I probably used the wrong directory detection method, however, so you may want to just run it from the project root for now.
+4. Add the project root to your PATH, or alternatively use an alias.
 
 ## Configuration
 The first time you run the program, you will be required to respond to a few configuration options.  You may want to have your Codewars API Access Token handy (available [here](https://www.codewars.com/users/edit), as you will be asked for it.  If you want to change any of these settings at a later time, simply run ```nodewars config```.
