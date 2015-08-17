@@ -17,6 +17,7 @@ You can view a list of available commands at any time by running ```nodewars --h
 ```nodewars list``` will display a list of all katas you have saved using NODEWARS, organized by kata state.  Optionally, you may specify a state as an argument to this command to view only katas in that state.
 
 A kata is classified by NODEWARS as belonging to exactly one of the following states:
+
 | State       | Description                                                                                                        |
 | ----------- | ------------------------------------------------------------------------------------------------------------------ |
 | not saved   | Not existing in the NODEWARS instance.  Katas viewed but not saved are termed not saved                            |
